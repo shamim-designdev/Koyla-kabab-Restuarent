@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Koyla Kabab Station offers the best kebabs and grills.">
+<meta name=keywords content="Koyla Kabab, Kebabs, Grill, Restaurant, Bangladesh">
+<title>Koyla Kabab Station</title>
+<link rel=icon href=https://img.icons8.com/stickers/50/grill.png type=image/png>
+<link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css rel=stylesheet>
+<link rel=stylesheet href=style.min.css>
+</head>
+<body>
+<header>
+<nav class=navbar>
+<div class=logo>
+<a href=# aria-label=Home>
+<img src=https://img.icons8.com/stickers/50/grill.png alt="Koyla Kabab Station" width=50 height=50 loading=lazy>
+</a>
+</div>
+<ul class=navbar-list>
+<li><a href=#home>হোম</a></li>
+<li><a href=#about>আমাদের সম্পর্কে</a></li>
+<li><a href=#gallery>গ্যালারি</a></li>
+<li><a href=#contact>যোগাযোগ</a></li>
+<li><a href=#menu>মেনু</a></li>
+</ul>
+</nav>
+</header>
+<aside class=sidebar id=sidebar>
+<button class=close-btn id=close-btn aria-label="Close Sidebar">&times;</button>
+<div class=logo>
+<a href=#><img src=https://img.icons8.com/stickers/50/grill.png alt="Koyla Kabab Station" width=50 height=50 loading=lazy></a>
+</div>
+<nav>
+<ul>
+<li><a href=#home><i class="fas fa-home"></i> হোম</a></li>
+<li><a href=#about><i class="fas fa-info-circle"></i> আমাদের সম্পর্কে</a></li>
+<li><a href=#gallery><i class="fas fa-images"></i> গ্যালারি</a></li>
+<li><a href=#contact><i class="fas fa-envelope"></i> যোগাযোগ</a></li>
+<li><a href=#menu><i class="fas fa-utensils"></i> মেনু</a></li>
+</ul>
+</nav>
+</aside>
+<button class=open-btn id=open-btn><i class="fas fa-bars"></i></button>
+<section class=hero-slider>
+<div class=hero-slide style="background-image:url('./img/1.webp')"></div>
+<div class=hero-slide style="background-image:url('./img/2.webp')"></div>
+<div class=hero-slide style="background-image:url('./img/3.jpg')"></div>
+</section>
+<section id=about class=about-section>
+<div class=about-container>
+<div class=about-image>
+<img src=img/about.webp alt="Koyla Kabab Station Restaurant Image">
+</div>
+<div class=about-content>
+<h1>কয়লা কাবাব স্টেশন সম্পর্কে</h1>
+<p>
+কয়লা কাবাব স্টেশনে আমরা সাউথ এশিয়ান খাবারের ঐতিহ্যের প্রতি নিবেদিত, যেখানে আমরা পরিবেশন করি খাঁটি, সুস্বাদু কাবাব এবং ঐতিহ্যবাহী খাবার। শহরের প্রাণকেন্দ্রে অবস্থিত আমাদের রেস্তোরাঁতে টাটকা উপকরণ, সঠিকভাবে মিশ্রিত মসলা, এবং মানসম্পন্ন খাবার পরিবেশনের প্রতিশ্রুতি নিয়ে আমরা তৈরি করি এক অবিস্মরণীয় ডাইনিং অভিজ্ঞতা।
+</p>
+<p>
+আমাদের সাথে যোগ দিন এক রন্ধনযাত্রায় — যেখানে আপনি উপভোগ করতে পারবেন সিজলিং চিকেন টিক্কা, মজাদার ল্যাম্ব কাবাব থেকে শুরু করে আমাদের বিখ্যাত বিরিয়ানি এবং সুস্বাদু কারি। কয়লা কাবাব স্টেশনে আমরা শুধু একটি রেস্তোরাঁ নই — আমরা স্বাদের উদযাপন।
+</p>
+</div>
+</div>
+</section>
+<section class=gallery id=gallery>
+<div class=gallery-header>
+<h2>আমাদের গ্যালারি</h2>
+<p>আমাদের স্বাক্ষরিত খাবার ও রেস্তোরাঁর আকর্ষণীয় পরিবেশের একটি ঝলক দেখুন। প্রতিটি ডিশ এবং অভিজ্ঞতা আপনার স্বাদ ও মনকে প্রফুল্ল করবে। এখানে রয়েছে আমাদের বিশেষ কাবাব, গ্রিলড মাছ এবং রেস্তোরাঁর আরামদায়ক বসার জায়গার মনোরম চিত্র।</p>
+</div>
+<div class=gallery-grid>
+<div class=gallery-item>
+<img src="./img/murgi roast.webp" alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/mogoj.webp alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/mejbani goru package.webp" alt="Dish 3" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/beef-khichuri.webp alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/interior 1.webp" alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/interior 2.webp" alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/customer.webp alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/interior3.webp alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/fish bbq.webp" alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/fish bbq2.webp" alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/crab plate.webp" alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/crab big.webp" alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/interior4.webp alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src=./img/ramen.webp alt="Dish 2" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/rice plater.webp" alt="Dish 1" onclick=openModal(this)>
+</div>
+<div class=gallery-item>
+<img src="./img/fish bbq3.webp" alt="Dish 2" onclick=openModal(this)>
+</div>
+</div>
+<div id=imageModal class=modal onclick=closeModal()>
+<span class=close>&times;</span>
+<img class=modal-content id=modalImg>
+</div>
+</section>
+<section class=contact-us id=contact>
+<div class=contact-header>
+<h2>যোগাযোগ করুন</h2>
+<p>
+আমরা আপনার কাছ থেকে শুনতে চাই! আপনি আমাদের মেনু, পরিষেবা বা অন্য যেকোনো বিষয়ে প্রশ্ন থাকলে, আমাদের দল আপনাকে সাহায্য করতে প্রস্তুত। আপনার মন্তব্য এবং পরামর্শ আমাদের কাছে মূল্যবান। আপনার অভিজ্ঞতা উন্নত করতে আমরা সর্বদা চেষ্টা করছি, তাই আমাদের সাথে যোগাযোগ করুন!
+</p>
+<p><b>এছাড়াও, বুকিং, ইভেন্ট এবং হোম ডেলিভারির জন্য যোগাযোগ করুন। ১০০০ টাকার Food অর্ডারে পাবেন ১০% ডিসকাউন্ট! </b></p>
+</div>
+<div class=contact-content>
+<div class=branch>
+<h3>প্রধান শাখা</h3>
+<p><i class="fas fa-map-marker-alt"></i> Hathajari Road, East Side of Rahmania School, Bibirhat, Chattogram 4211</p>
+<p><i class="fas fa-phone"></i> 01873-xxxxxx</p>
+<p><i class="fas fa-envelope"></i> abcd@gmail.com</p>
+<p><i class="fas fa-concierge-bell"></i> ডেলিভারি · টেকআউট · ডাইন-ইন</p>
+</div>
+<div class=branch-image>
+<img src=./img/contact.webp alt="contact us">
+</div>
+<div class=branch>
+<h3>দ্বিতীয় শাখা</h3>
+<p><i class="fas fa-map-marker-alt"></i> Halisahar, Gunners Shopping Complex 2, Shop 5, Artillary, চট্টগ্রাম, বাংলাদেশ</p>
+<p><i class="fas fa-phone"></i> 01717-xxxxxx</p>
+<p><i class="fas fa-envelope"></i> abcd@gmail.com</p>
+<p><i class="fas fa-concierge-bell"></i> ডেলিভারি · টেকআউট · ডাইন-ইন</p>
+</div>
+</div>
+</section>
+<main class=food-menu id=menu>
+<div class=page-1>
+<section class=food-section>
+<h2><i class="fas fa-utensils"></i> বিশেষ ঐতিহ্যবাহী বাংলা খাবার</h2>
+<div class=food-cards>
+<div class=food-card>
+<img src="./img/mejbani goru package.webp" alt="Mezbani Beef Package" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> মেজবানী গরুর প্যাকেজ</h3>
+<p class=food-description>বিশেষভাবে রান্না করা মেজবানী গরুর মাংস, যা উৎসব এবং বিশেষ উপলক্ষে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৩৩০</p>
+</div>
+<div class=food-card>
+<img src="./img/chui jhal.webp" alt="Chui Jhal Beef Package" class=food-image>
+<h3><i class="fas fa-pepper-hot"></i> চুই ঝাল গরুর প্যাকেজ</h3>
+<p class=food-description>ঝাল ও মশলাদার গরুর মাংসের প্যাকেজ, যা চাট পিঠার সাথে উপভোগ করতে পারেন।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৩৩০</p>
+</div>
+<div class=food-card>
+<img src="./img/jamai dala.webp" alt="Jamai Dala Platter" class=food-image>
+<h3><i class="fas fa-leaf"></i> জামাই দাল প্লেটার</h3>
+<p class=food-description>বিভিন্ন ধরনের খাবার নিয়ে তৈরি জামাই দাল, যা ভোজনপ্রিয়দের জন্য আদর্শ।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৯০০০</p>
+</div>
+<div class=food-card>
+<img src=./img/beef-khichuri.webp alt="Motka Beef Khichuri" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> মটকা গরুর খিচুড়ি</h3>
+<p class=food-description>মশলাদার গরুর মাংস ও ভাতের মিশ্রণ, যা গরম গরম পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২৮০</p>
+</div>
+<div class=food-card>
+<img src=./img/khichuri.webp alt="Chicken Bhuna Khichuri" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> চিকেন ভুনা খিচুড়ি</h3>
+<p class=food-description>স্বাদে ভরা চিকেনের সাথে খিচুড়ি, যা সবার প্রিয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২২০</p>
+</div>
+<div class=food-card>
+<img src="./img/handi kabab.webp" alt="Special Handii Kabab with Luchi" class=food-image>
+<h3><i class="fas fa-bread-slice"></i> স্পেশাল হান্ডি কাবাব এবং লুচি</h3>
+<p class=food-description>স্পেশাল হান্ডি কাবাব, মসলা এবং গরম লুচির সাথে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২৭০</p>
+</div>
+</div>
+</section>
+<section class=food-section>
+<h2><i class="fas fa-fire-alt"></i> টিক্কা এবং কাবাব</h2>
+<div class=food-cards>
+<div class=food-card>
+<img src=./img/tikka.webp alt="Chicken Tikka" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> চিকেন টিক্কা</h3>
+<p class=food-description>মশলাদার চিকেনের টুকরো, গ্রিল করা এবং পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১১০</p>
+</div>
+<div class=food-card>
+<img src="./img/chicken chap.webp" alt="Chicken Chap" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> চিকেন চপ</h3>
+<p class=food-description>ক্রিস্পি চিকেনের চপ, মশলা দিয়ে গৃহীত।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১৪০</p>
+</div>
+<div class=food-card>
+<img src="./img/hariali kabab.webp" alt="Chicken Boti Reshmi Hariyali Kabab" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> চিকেন বটি রেশমী হারিয়ালি কাবাব</h3>
+<p class=food-description>নরম এবং মশলাদার চিকেন কাবাব, যা সস দিয়ে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১১০</p>
+</div>
+<div class=food-card>
+<img src=./img/Chicken-Masala-2-3-1.webp alt="Chicken Masala" class=food-image>
+<h3><i class="fas fa-pepper-hot"></i> চিকেন মসালা</h3>
+<p class=food-description>মশলাদার চিকেন, যা নান বা ভাতের সাথে উপভোগ করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১৫০</p>
+</div>
+<div class=food-card>
+<img src=./img/mogoj.webp alt="Beef Afghani Chapli Kabab" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> বিফ আফগানী চাপলি কাবাব</h3>
+<p class=food-description>বিফ কাবাব, যা আফগানী মশলার সাথে তৈরি।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২০০</p>
+</div>
+<div class=food-card>
+<img src=./img/zabiha_halal_beef_seekh_kabab_1_1400x.webp alt="Beef Shik Kabab" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> বিফ শিক কাবাব</h3>
+<p class=food-description>রুক্ষ ও মশলাদার গরুর মাংসের কাবাব।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২১০</p>
+</div>
+<div class=food-card>
+<img src="./img/mejbani goru package.webp" alt="Mezbani Beef" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> মেজবানী গরু</h3>
+<p class=food-description>বিশেষ মশলা দিয়ে রান্না করা মেজবানী গরুর মাংস।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২২০</p>
+</div>
+<div class=food-card>
+<img src="./img/chui jhal.webp" alt="Chui Jhal Beef" class=food-image>
+<h3><i class="fas fa-pepper-hot"></i> চুই ঝাল গরু</h3>
+<p class=food-description>ঝাল ও মশলাদার গরুর মাংসের প্রস্তুতি।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২৩0</p>
+</div>
+<div class=food-card>
+<img src=./img/dal.webp alt="Khasir Chana Dal" class=food-image>
+<h3><i class="fas fa-drumstick-bite"></i> খাসির চনা ডাল</h3>
+<p class=food-description>সুস্বাদু খাসির ডাল, যা পরোটা বা রুটির সাথে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৭০</p>
+</div>
+</div>
+</section>
+</div>
+<div class="page-2 hidden">
+<section class=food-section>
+<h2><i class="fas fa-fish"></i> মাছ এবং কাঁকড়া</h2>
+<div class=food-cards>
+<div class=food-card>
+<img src="./img/fish bbq.webp" alt="Narikel Fish BBQ/Fry" class=food-image>
+<h3><i class="fas fa-fish"></i> নাড়কেল মাছ BBQ/ফ্রাই</h3>
+<p class=food-description>মশলার সাথে গ্রিল বা ফ্রাই করা নাড়কেল মাছ।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১৪০</p>
+</div>
+<div class=food-card>
+<img src="./img/fish bbq3.webp" alt="Tilapia Fish BBQ/Fry" class=food-image>
+<h3><i class="fas fa-fish"></i> টেলাপিয়া মাছ BBQ/ফ্রাই</h3>
+<p class=food-description>মশলার সাথে গ্রিল বা ফ্রাই করা টেলাপিয়া মাছ।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২২৮</p>
+</div>
+<div class=food-card>
+<img src="./img/crab plate.webp" alt="Crab Jhal Masala" class=food-image>
+<h3><i class="fas fa-fish"></i> কাঁকড়া ঝাল মসালা</h3>
+<p class=food-description>মশলাদার কাঁকড়া কারি, যা সবজির সাথে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১৪০</p>
+</div>
+<div class=food-card>
+<img src=./img/crab.webp alt="Crab BBQ/Fry" class=food-image>
+<h3><i class="fas fa-fish"></i> কাঁকড়া BBQ/ফ্রাই</h3>
+<p class=food-description>গ্রিল বা ফ্রাই করা কাঁকড়া, যা বিশেষ স্বাদযুক্ত।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ১৪০</p>
+</div>
+<div class=food-card>
+<img src="./img/crab big.webp" alt="Big Blue Crab" class=food-image>
+<h3><i class="fas fa-fish"></i> বিগ ব্লু কাঁকড়া</h3>
+<p class=food-description>বিশাল আকারের ব্লু কাঁকড়া, যা সি ফুড প্রেমীদের জন্য আদর্শ।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২২০</p>
+</div>
+</div>
+</section>
+<section class=food-section>
+<h2><i class="fas fa-bread-slice"></i> পরোটা এবং পানীয়</h2>
+<div class=food-cards>
+<div class=food-card>
+<img src="./img/butter nan.webp" alt="Butter Nan" class=food-image>
+<h3><i class="fas fa-bread-slice"></i> বাটার নান</h3>
+<p class=food-description>মাখন দিয়ে তৈরি নরম নান, যা বিশেষ খাবারের সাথে উপভোগ করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৪০</p>
+</div>
+<div class=food-card>
+<img src=./img/porota.webp alt=Paratha class=food-image>
+<h3><i class="fas fa-bread-slice"></i> পরোটা</h3>
+<p class=food-description>গমের ময়দা দিয়ে তৈরি পরোটা, যা মশলা দিয়ে পরিবেশন করা হয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ২০</p>
+</div>
+<div class=food-card>
+<img src=./img/porota.webp alt="Special Ghee Paratha" class=food-image>
+<h3><i class="fas fa-bread-slice"></i> স্পেশাল ঘি পরোটা</h3>
+<p class=food-description>মাখন এবং ঘি দিয়ে তৈরি স্পেশাল পরোটা।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৪০</p>
+</div>
+<div class=food-card>
+<img src=./img/MALAI-TEA-3.webp alt="Malai Tea" class=food-image>
+<h3><i class="fas fa-mug-hot"></i> মালাই চা</h3>
+<p class=food-description>নরম ও সুগন্ধযুক্ত মালাই চা, যা ঠাণ্ডা দিনে উপভোগ করা যায়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৩০</p>
+</div>
+<div class=food-card>
+<img src=./img/cold-drink-hacks-to-know.webp alt="Cold Drinks" class=food-image>
+<h3><i class="fas fa-glass-whiskey"></i> কোল্ড ড্রিঙ্কস</h3>
+<p class=food-description>বিভিন্ন রকমের ঠাণ্ডা পানীয়।</p>
+<p class=food-price><i class="fas fa-money-bill-wave"></i> ৳ ৩০</p>
+</div>
+</div>
+</section>
+</div>
+<div class=flip-container>
+<div class=flip-icons>
+<i class="fas fa-chevron-left flip-left hidden"></i>
+<i class="fas fa-chevron-right flip-right"></i>
+</div>
+</div>
+</main>
+<section id=food-reviews>
+<div class=container>
+<h2>ক্লায়েন্টদের রিভিউ - কয়লা কাবাব</h2>
+<div class=review-slider>
+<div class=reviews>
+<div class=review>
+<img src=./img/profile.png alt="রাকিব হাসান" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"কয়লা কাবাবের স্বাদ একদম ভিন্ন! প্রথম কামড়েই নরম মাংস আর মশলার গভীরতা মুগ্ধ করেছে। মাংসের বাইরের দিকটা ক্রিস্পি, কিন্তু ভেতরটা এত নরম যে মুখে দিলেই গলে যায়। মশলার মিশ্রণ খুবই সুষম, ধোঁয়ার গন্ধ আর টক দইয়ের চাটনির সঙ্গে পরিবেশনা ছিল সত্যিই অনবদ্য।"</p>
+<h3>- রাকিব হাসান</h3>
+</div>
+<div class=review>
+<img src=./img/profile.png alt="শারমিন আক্তার" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"কয়লা কাবাবের মশলার স্বাদ ছিল একদম পারফেক্ট! প্রতিটি কামড়ে মনে হচ্ছিল যেন মাংসটি মশলার ভেতর বহুক্ষণ মেরিনেট করা হয়েছে। ধোঁয়ায় রান্নার প্রক্রিয়া মাংসের প্রতিটি টুকরাতে স্বাদ ঢেলে দিয়েছে। বিশেষ করে চাটনির সঙ্গে কাবাবের সংমিশ্রণ অসাধারণ ছিল।"</p>
+<h3>- শারমিন আক্তার</h3>
+</div>
+<div class=review>
+<img src=./img/profile.png alt="আনোয়ারুল ইসলাম" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"মাংসের গ্রিলিং একদম নিখুঁতভাবে করা হয়েছে। বাইরের দিকটা সুন্দরভাবে চার হয়ে গেছে, কিন্তু মাংসের ভেতর নরম এবং জুসি। স্পাইসের হালকা ঝাল আর ধোঁয়ার স্বাদ একদম মিলে গেছে। আর সাইড ডিশ হিসেবে স্যালাড এবং নান ছিল মুগ্ধকর!"</p>
+<h3>- আনোয়ারুল ইসলাম</h3>
+</div>
+<div class=review>
+<img src=./img/profile.png alt="তানিয়া রহমান" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"কয়লা কাবাবের পরিবেশনা ছিল চোখ ধাঁধানো। কাবাবের প্রতিটি টুকরোতে স্পাইসের ভারসাম্য ছিল অসাধারণ, এবং ধোঁয়ার মৃদু গন্ধ কাবাবের স্বাদকে আরও সমৃদ্ধ করেছে। চাটনি এবং নানের সঙ্গে কাবাবের কম্বিনেশন ছিল আমার পছন্দের।"</p>
+<h3>- তানিয়া রহমান</h3>
+</div>
+<div class=review>
+<img src=./img/profile.png alt="ফারুক আহমেদ" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"প্রথমে মনে হচ্ছিল কাবাবটা একটু বেশি চার হয়ে গেছে, কিন্তু প্রথম কামড়ের পর বুঝলাম মাংসের ভেতরের নরম অংশ এবং বাইরের ক্রিস্পিনেস একদম পারফেক্ট। মাংসের টেন্ডারনেস এবং ধোঁয়ার মিশ্রণ সত্যিই স্বর্গীয়। এটি এমন একটি অভিজ্ঞতা যা সব কাবাব প্রেমীদের জন্য প্রয়োজন।"</p>
+<h3>- ফারুক আহমেদ</h3>
+</div>
+<div class=review>
+<img src=./img/profile.png alt="নিপা চৌধুরী" class=client-image>
+<div class=quote-icon><i class="fas fa-quote-left"></i></div>
+<p>"কয়লা কাবাবের প্রতিটি কামড় ছিল যেমন নরম, তেমনি মুখে গলে যাওয়ার মতো। মশলার গভীরতা প্রতিটি কামড়ে অনুভব করা যাচ্ছিল, আর ধোঁয়ার স্বাদ মাংসে অসাধারণভাবে মিশে গেছে। কাবাবের পাশে স্যালাড এবং মশলাদার চাটনি পুরো খাবারটিকে সম্পূর্ণ করেছে।"</p>
+<h3>- নিপা চৌধুরী</h3>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=faq class=faq-section>
+<div class=container>
+<h2>প্রায় জিজ্ঞাসিত প্রশ্নাবলী</h2>
+<div class=faq-item>
+<div class=faq-question>
+<h3><i class="fas fa-question-circle"></i> কয়লা কাবাব স্টেশনের প্রধান বিশেষত্ব কী?</h3>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class=faq-answer>
+<p>কয়লা কাবাব স্টেশনের বিশেষত্ব হল কাঠকয়লা দিয়ে ধোঁয়ায় রান্না করা কাবাব। এতে কাবাবের মধ্যে গভীর ধোঁয়ার গন্ধ ও বিশেষ মশলার সংমিশ্রণে অতুলনীয় স্বাদ তৈরি হয়। এটি কেবল কাবাবই নয়, নান এবং ধোঁয়ার সালাদের মতো বিভিন্ন খাবারের জন্যও জনপ্রিয়।</p>
+</div>
+</div>
+<div class=faq-item>
+<div class=faq-question>
+<h3><i class="fas fa-question-circle"></i> আপনার রেস্তোরাঁর সেরা খাবার কোনগুলো?</h3>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class=faq-answer>
+<p>আমাদের সেরা খাবারগুলোর মধ্যে রয়েছে কাঠকয়লা কাবাব প্লাটার, গার্লিক নান, এবং স্পেশাল ধোঁয়ার চিকেন। এগুলো আমাদের অতিথিদের প্রিয়, এবং প্রতিটি খাবারেই আপনি পাবেন তাজা উপাদান এবং আসল মশলার ব্যবহার।</p>
+</div>
+</div>
+<div class=faq-item>
+<div class=faq-question>
+<h3><i class="fas fa-question-circle"></i> কি ধরনের খাবারের বিকল্প রয়েছে?</h3>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class=faq-answer>
+<p>আমরা বিভিন্ন ধরণের কাবাব, নান, বারবিকিউ, এবং তাজা সালাদ প্রদান করি। এছাড়াও, আমরা নিরামিষাশী এবং স্বাস্থ্যকর বিকল্পও রাখি, যাতে প্রতিটি অতিথির খাদ্য চাহিদা পূরণ করা যায়।</p>
+</div>
+</div>
+<div class=faq-item>
+<div class=faq-question>
+<h3><i class="fas fa-question-circle"></i> আপনি কি ডেলিভারি বা অনলাইন অর্ডার প্রদান করেন?</h3>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class=faq-answer>
+<p>হ্যাঁ, আমরা অনলাইন অর্ডার ও ডেলিভারি সেবা প্রদান করি। আপনারা আমাদের ওয়েবসাইট বা জনপ্রিয় ডেলিভারি প্ল্যাটফর্মগুলো ব্যবহার করে অর্ডার করতে পারেন, এবং আমরা যত দ্রুত সম্ভব খাবার পৌঁছে দেব।</p>
+</div>
+</div>
+<div class=faq-item>
+<div class=faq-question>
+<h3><i class="fas fa-question-circle"></i> কি ধরনের পেমেন্ট পদ্ধতি গ্রহণযোগ্য?</h3>
+<i class="fas fa-chevron-down"></i>
+</div>
+<div class=faq-answer>
+<p>আমরা নগদ, ক্রেডিট কার্ড, ডেবিট কার্ড, বিকাশ, রকেট এবং অনলাইন পেমেন্ট গ্রহণ করি। গ্রাহকদের জন্য সহজ ও সুবিধাজনক পেমেন্টের বিকল্প রাখতে আমরা সবসময় সচেষ্ট।</p>
+</div>
+</div>
+</div>
+</section>
+<footer class=footer>
+<div class=footer-container>
+<div class=footer-logo>
+<a href=#><img width=50 height=50 src=https://img.icons8.com/stickers/50/grill.png alt="Grill Logo"></a>
+</div>
+<div class=footer-links>
+<ul>
+<li><a href=#home>হোম</a></li>
+<li><a href=#about>আমাদের সম্পর্কে</a></li>
+<li><a href=#gallery>গ্যালারি</a></li>
+<li><a href=#menu>মেনু</a></li>
+<li><a href=#contact>যোগাযোগ</a></li>
+</ul>
+</div>
+<div class=footer-social>
+<a href=# aria-label=Facebook><i class="fab fa-facebook-f"></i></a>
+<a href=# aria-label=Instagram><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class=footer-maps>
+<div class=map-container>
+<h3>Location 1 - Hathajari Branch</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59030.4235183501!2d91.75986542167972!3d22.376217800000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad27c88ab0edc3%3A0x3e83605b3796b6ae!2sKoyla!5e0!3m2!1sen!2sbd!4v1732552978195!5m2!1sen!2sbd" width=400 height=300 style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade title="Google Map showing Koyla Kabab Station Hathajari Branch location">
+</iframe>
+</div>
+<div class=map-container>
+<h3>Location 2 - Halisahar Branch</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59049.58000902363!2d91.71010472167971!3d22.331009899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd900262d32eb%3A0x3e59d728fd530198!2sKoyla%20Kabab%20Station%20(Halishahar%20Branch)!5e0!3m2!1sen!2sbd!4v1732552739026!5m2!1sen!2sbd" width=400 height=300 style=border:0 allowfullscreen loading=lazy referrerpolicy=no-referrer-when-downgrade title="Google Map showing Koyla Kabab Station Halisahar Branch location">
+</iframe>
+</div>
+</div>
+<div class=footer-rights>
+<p class=rights-text>© 2024 Koyla Kabab Station. <b><a href=https://www.linkedin.com/in/mh-shamim-bhuiyan target=_blank>Created by MH Shamim Bhuiyan</a></b></p>
+</div>
+</footer>
+<script src=./app.min.js></script>
+</body>
+</html>
